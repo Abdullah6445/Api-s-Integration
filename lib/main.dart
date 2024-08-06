@@ -1,4 +1,4 @@
-import 'package:api_integration/pages/integrate_page.dart';
+import 'package:api_integration/pages/post_api/post_api_integration.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: false,
       ),
-      home: IntegratePage(),
+      home: PostApiIntegration(),
     );
   }
 }
